@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.header {
+    background-image: linear-gradient(to right, #000000b3, #000000b3), url(./../dist/img/header.jpeg);
+    background-position: 50%; 
+    background-size: cover;
+    position: relative;
+}

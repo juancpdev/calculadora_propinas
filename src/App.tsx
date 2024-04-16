@@ -11,8 +11,8 @@ function App() {
 
   return (
     <>
-      <header className="bg-orange-400 py-10 text-center">
-        <h1 className=" text-2xl font-black md:text-4xl">Calculadora de Propinas y Consumo</h1>
+      <header className="header py-20 text-center">
+        <h1 className=" text-white text-2xl font-black md:text-4xl">Calculadora de Propinas y Consumo</h1>
       </header>
 
       <main className=" max-w-7xl mx-auto py-10 grid md:grid-cols-2 md:py-20">
