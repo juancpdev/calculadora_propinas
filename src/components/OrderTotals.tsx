@@ -34,7 +34,7 @@ export default function OrderTotals({ order, tip, dispatch }: OrderTotalsProps) 
             </div>
 
             <button 
-                className=" bg-black text-white w-full py-2"
+                className=" bg-orange-500 text-white w-full py-2"
                 onClick={() => dispatch({type : "place-order"})}    
             >
                 Guardar Orden
